@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6367D09321A4A1D9D5A147D7 /* libPods-KSObjCMapperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D49BD811E1E28661C1901B /* libPods-KSObjCMapperUITests.a */; };
+		6F91046C1F33490C006530F5 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9104691F33490C006530F5 /* HTTPService.m */; };
+		6F91046D1F33490C006530F5 /* InterestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91046B1F33490C006530F5 /* InterestService.m */; };
+		6FB841F61F33130E00A47BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB841F51F33130E00A47BB3 /* main.m */; };
+		6FB841F91F33130E00A47BB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB841F81F33130E00A47BB3 /* AppDelegate.m */; };
+		6FB841FC1F33130E00A47BB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB841FB1F33130E00A47BB3 /* ViewController.m */; };
+		6FB841FF1F33130E00A47BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB841FD1F33130E00A47BB3 /* Main.storyboard */; };
+		6FB842011F33130E00A47BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB842001F33130E00A47BB3 /* Assets.xcassets */; };
+		6FB842041F33130E00A47BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB842021F33130E00A47BB3 /* LaunchScreen.storyboard */; };
+		6FB8420F1F33130E00A47BB3 /* KSObjCMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8420E1F33130E00A47BB3 /* KSObjCMapperTests.m */; };
+		6FB8421A1F33130E00A47BB3 /* KSObjCMapperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB842191F33130E00A47BB3 /* KSObjCMapperUITests.m */; };
+		6FB842331F33134B00A47BB3 /* Mapper+BadValueHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8422B1F33134B00A47BB3 /* Mapper+BadValueHandler.m */; };
+		6FB842341F33134B00A47BB3 /* Mapper+DataTypeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8422D1F33134B00A47BB3 /* Mapper+DataTypeObserver.m */; };
+		6FB842351F33134B00A47BB3 /* Mapper+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8422F1F33134B00A47BB3 /* Mapper+Helper.m */; };
+		6FB842361F33134B00A47BB3 /* Mapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB842311F33134B00A47BB3 /* Mapper.m */; };
+		6FB842401F33135400A47BB3 /* Enimy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB842391F33135400A47BB3 /* Enimy.m */; };
+		6FB842411F33135400A47BB3 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8423B1F33135400A47BB3 /* Friend.m */; };
+		6FB842421F33135400A47BB3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8423D1F33135400A47BB3 /* Model.m */; };
+		6FB842431F33135400A47BB3 /* TestDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8423F1F33135400A47BB3 /* TestDict.m */; };
+		6FB842471F33138A00A47BB3 /* MyJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FB842451F33138A00A47BB3 /* MyJson.json */; };
+		6FB8424A1F3314B500A47BB3 /* Doc.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6FB842491F3314B500A47BB3 /* Doc.rtf */; };
+		D6D83053FCED2E4AD98F0305 /* libPods-KSObjCMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A981F5D5BF1E70C2AC506F7D /* libPods-KSObjCMapper.a */; };
+		D8517F4315299AA53AE94691 /* libPods-KSObjCMapperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F0344F36D423C720AC277D /* libPods-KSObjCMapperTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FB8420B1F33130E00A47BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB841E91F33130E00A47BB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB841F01F33130E00A47BB3;
+			remoteInfo = KSObjCMapper;
+		};
+		6FB842161F33130E00A47BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB841E91F33130E00A47BB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB841F01F33130E00A47BB3;
+			remoteInfo = KSObjCMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10D49BD811E1E28661C1901B /* libPods-KSObjCMapperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSObjCMapperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C6EF225C6C614879D1D4C /* Pods-KSObjCMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSObjCMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSObjCMapperTests/Pods-KSObjCMapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		49EC1A26A512E40AB35CD815 /* Pods-KSObjCMapperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSObjCMapperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSObjCMapperUITests/Pods-KSObjCMapperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F9104681F33490C006530F5 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		6F9104691F33490C006530F5 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		6F91046A1F33490C006530F5 /* InterestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestService.h; sourceTree = "<group>"; };
+		6F91046B1F33490C006530F5 /* InterestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestService.m; sourceTree = "<group>"; };
+		6FB841F11F33130E00A47BB3 /* KSObjCMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSObjCMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB841F51F33130E00A47BB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FB841F71F33130E00A47BB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FB841F81F33130E00A47BB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FB841FA1F33130E00A47BB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FB841FB1F33130E00A47BB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FB841FE1F33130E00A47BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FB842001F33130E00A47BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FB842031F33130E00A47BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FB842051F33130E00A47BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB8420A1F33130E00A47BB3 /* KSObjCMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSObjCMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB8420E1F33130E00A47BB3 /* KSObjCMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSObjCMapperTests.m; sourceTree = "<group>"; };
+		6FB842101F33130E00A47BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB842151F33130E00A47BB3 /* KSObjCMapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSObjCMapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB842191F33130E00A47BB3 /* KSObjCMapperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSObjCMapperUITests.m; sourceTree = "<group>"; };
+		6FB8421B1F33130E00A47BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB8422A1F33134B00A47BB3 /* Mapper+BadValueHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mapper+BadValueHandler.h"; sourceTree = "<group>"; };
+		6FB8422B1F33134B00A47BB3 /* Mapper+BadValueHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mapper+BadValueHandler.m"; sourceTree = "<group>"; };
+		6FB8422C1F33134B00A47BB3 /* Mapper+DataTypeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mapper+DataTypeObserver.h"; sourceTree = "<group>"; };
+		6FB8422D1F33134B00A47BB3 /* Mapper+DataTypeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mapper+DataTypeObserver.m"; sourceTree = "<group>"; };
+		6FB8422E1F33134B00A47BB3 /* Mapper+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mapper+Helper.h"; sourceTree = "<group>"; };
+		6FB8422F1F33134B00A47BB3 /* Mapper+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mapper+Helper.m"; sourceTree = "<group>"; };
+		6FB842301F33134B00A47BB3 /* Mapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapper.h; sourceTree = "<group>"; };
+		6FB842311F33134B00A47BB3 /* Mapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapper.m; sourceTree = "<group>"; };
+		6FB842381F33135400A47BB3 /* Enimy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enimy.h; sourceTree = "<group>"; };
+		6FB842391F33135400A47BB3 /* Enimy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enimy.m; sourceTree = "<group>"; };
+		6FB8423A1F33135400A47BB3 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		6FB8423B1F33135400A47BB3 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		6FB8423C1F33135400A47BB3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		6FB8423D1F33135400A47BB3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		6FB8423E1F33135400A47BB3 /* TestDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDict.h; sourceTree = "<group>"; };
+		6FB8423F1F33135400A47BB3 /* TestDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDict.m; sourceTree = "<group>"; };
+		6FB842451F33138A00A47BB3 /* MyJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MyJson.json; path = KSObjCMapper/JSON/MyJson.json; sourceTree = "<group>"; };
+		6FB842491F3314B500A47BB3 /* Doc.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Doc.rtf; sourceTree = "<group>"; };
+		838350F1D6036C704D7BDA56 /* Pods-KSObjCMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSObjCMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSObjCMapper/Pods-KSObjCMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC97D1A9D459E53735F873F /* Pods-KSObjCMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSObjCMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSObjCMapper/Pods-KSObjCMapper.release.xcconfig"; sourceTree = "<group>"; };
+		A981F5D5BF1E70C2AC506F7D /* libPods-KSObjCMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSObjCMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0344F36D423C720AC277D /* libPods-KSObjCMapperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSObjCMapperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C19E48CEC7641C2542AC9A /* Pods-KSObjCMapperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSObjCMapperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSObjCMapperUITests/Pods-KSObjCMapperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6BBA7C91BE38B169184AB79 /* Pods-KSObjCMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSObjCMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSObjCMapperTests/Pods-KSObjCMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB841EE1F33130E00A47BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D83053FCED2E4AD98F0305 /* libPods-KSObjCMapper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB842071F33130E00A47BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8517F4315299AA53AE94691 /* libPods-KSObjCMapperTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB842121F33130E00A47BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6367D09321A4A1D9D5A147D7 /* libPods-KSObjCMapperUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9104671F33490C006530F5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6F9104681F33490C006530F5 /* HTTPService.h */,
+				6F9104691F33490C006530F5 /* HTTPService.m */,
+				6F91046A1F33490C006530F5 /* InterestService.h */,
+				6F91046B1F33490C006530F5 /* InterestService.m */,
+			);
+			name = Service;
+			path = KSObjCMapper/Service;
+			sourceTree = "<group>";
+		};
+		6FB841E81F33130E00A47BB3 = {
+			isa = PBXGroup;
+			children = (
+				6F9104671F33490C006530F5 /* Service */,
+				6FB842491F3314B500A47BB3 /* Doc.rtf */,
+				6FB842451F33138A00A47BB3 /* MyJson.json */,
+				6FB842371F33135400A47BB3 /* Models */,
+				6FB842271F33134B00A47BB3 /* KSMapper */,
+				6FB841F31F33130E00A47BB3 /* KSObjCMapper */,
+				6FB8420D1F33130E00A47BB3 /* KSObjCMapperTests */,
+				6FB842181F33130E00A47BB3 /* KSObjCMapperUITests */,
+				6FB841F21F33130E00A47BB3 /* Products */,
+				BC72896CC01D8D97B040ECAB /* Pods */,
+				E1F6840187133D5781729325 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FB841F21F33130E00A47BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FB841F11F33130E00A47BB3 /* KSObjCMapper.app */,
+				6FB8420A1F33130E00A47BB3 /* KSObjCMapperTests.xctest */,
+				6FB842151F33130E00A47BB3 /* KSObjCMapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB841F31F33130E00A47BB3 /* KSObjCMapper */ = {
+			isa = PBXGroup;
+			children = (
+				6FB841F71F33130E00A47BB3 /* AppDelegate.h */,
+				6FB841F81F33130E00A47BB3 /* AppDelegate.m */,
+				6FB841FA1F33130E00A47BB3 /* ViewController.h */,
+				6FB841FB1F33130E00A47BB3 /* ViewController.m */,
+				6FB841FD1F33130E00A47BB3 /* Main.storyboard */,
+				6FB842001F33130E00A47BB3 /* Assets.xcassets */,
+				6FB842021F33130E00A47BB3 /* LaunchScreen.storyboard */,
+				6FB842051F33130E00A47BB3 /* Info.plist */,
+				6FB841F41F33130E00A47BB3 /* Supporting Files */,
+			);
+			path = KSObjCMapper;
+			sourceTree = "<group>";
+		};
+		6FB841F41F33130E00A47BB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FB841F51F33130E00A47BB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FB8420D1F33130E00A47BB3 /* KSObjCMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB8420E1F33130E00A47BB3 /* KSObjCMapperTests.m */,
+				6FB842101F33130E00A47BB3 /* Info.plist */,
+			);
+			path = KSObjCMapperTests;
+			sourceTree = "<group>";
+		};
+		6FB842181F33130E00A47BB3 /* KSObjCMapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB842191F33130E00A47BB3 /* KSObjCMapperUITests.m */,
+				6FB8421B1F33130E00A47BB3 /* Info.plist */,
+			);
+			path = KSObjCMapperUITests;
+			sourceTree = "<group>";
+		};
+		6FB842271F33134B00A47BB3 /* KSMapper */ = {
+			isa = PBXGroup;
+			children = (
+				6FB8422A1F33134B00A47BB3 /* Mapper+BadValueHandler.h */,
+				6FB8422B1F33134B00A47BB3 /* Mapper+BadValueHandler.m */,
+				6FB8422C1F33134B00A47BB3 /* Mapper+DataTypeObserver.h */,
+				6FB8422D1F33134B00A47BB3 /* Mapper+DataTypeObserver.m */,
+				6FB8422E1F33134B00A47BB3 /* Mapper+Helper.h */,
+				6FB8422F1F33134B00A47BB3 /* Mapper+Helper.m */,
+				6FB842301F33134B00A47BB3 /* Mapper.h */,
+				6FB842311F33134B00A47BB3 /* Mapper.m */,
+			);
+			name = KSMapper;
+			path = KSObjCMapper/KSMapper;
+			sourceTree = "<group>";
+		};
+		6FB842371F33135400A47BB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FB842381F33135400A47BB3 /* Enimy.h */,
+				6FB842391F33135400A47BB3 /* Enimy.m */,
+				6FB8423A1F33135400A47BB3 /* Friend.h */,
+				6FB8423B1F33135400A47BB3 /* Friend.m */,
+				6FB8423C1F33135400A47BB3 /* Model.h */,
+				6FB8423D1F33135400A47BB3 /* Model.m */,
+				6FB8423E1F33135400A47BB3 /* TestDict.h */,
+				6FB8423F1F33135400A47BB3 /* TestDict.m */,
+			);
+			name = Models;
+			path = KSObjCMapper/Models;
+			sourceTree = "<group>";
+		};
+		BC72896CC01D8D97B040ECAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				838350F1D6036C704D7BDA56 /* Pods-KSObjCMapper.debug.xcconfig */,
+				8AC97D1A9D459E53735F873F /* Pods-KSObjCMapper.release.xcconfig */,
+				D6BBA7C91BE38B169184AB79 /* Pods-KSObjCMapperTests.debug.xcconfig */,
+				208C6EF225C6C614879D1D4C /* Pods-KSObjCMapperTests.release.xcconfig */,
+				C4C19E48CEC7641C2542AC9A /* Pods-KSObjCMapperUITests.debug.xcconfig */,
+				49EC1A26A512E40AB35CD815 /* Pods-KSObjCMapperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1F6840187133D5781729325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A981F5D5BF1E70C2AC506F7D /* libPods-KSObjCMapper.a */,
+				C1F0344F36D423C720AC277D /* libPods-KSObjCMapperTests.a */,
+				10D49BD811E1E28661C1901B /* libPods-KSObjCMapperUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FB841F01F33130E00A47BB3 /* KSObjCMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB8421E1F33130E00A47BB3 /* Build configuration list for PBXNativeTarget "KSObjCMapper" */;
+			buildPhases = (
+				FD2EB35A45B61DC054F0B5F3 /* [CP] Check Pods Manifest.lock */,
+				6FB841ED1F33130E00A47BB3 /* Sources */,
+				6FB841EE1F33130E00A47BB3 /* Frameworks */,
+				6FB841EF1F33130E00A47BB3 /* Resources */,
+				62033DDB462095FCE6A9C211 /* [CP] Embed Pods Frameworks */,
+				78BDD23A8854CA3A5695BF07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSObjCMapper;
+			productName = KSObjCMapper;
+			productReference = 6FB841F11F33130E00A47BB3 /* KSObjCMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FB842091F33130E00A47BB3 /* KSObjCMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB842211F33130E00A47BB3 /* Build configuration list for PBXNativeTarget "KSObjCMapperTests" */;
+			buildPhases = (
+				B69C4F3FCD7215AE0E322DD3 /* [CP] Check Pods Manifest.lock */,
+				6FB842061F33130E00A47BB3 /* Sources */,
+				6FB842071F33130E00A47BB3 /* Frameworks */,
+				6FB842081F33130E00A47BB3 /* Resources */,
+				3C13D552DA346038B1DB6F8B /* [CP] Embed Pods Frameworks */,
+				11642357764EB2D43A35F3A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB8420C1F33130E00A47BB3 /* PBXTargetDependency */,
+			);
+			name = KSObjCMapperTests;
+			productName = KSObjCMapperTests;
+			productReference = 6FB8420A1F33130E00A47BB3 /* KSObjCMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FB842141F33130E00A47BB3 /* KSObjCMapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB842241F33130E00A47BB3 /* Build configuration list for PBXNativeTarget "KSObjCMapperUITests" */;
+			buildPhases = (
+				6B5C3C6BB9F941BD995BAF6D /* [CP] Check Pods Manifest.lock */,
+				6FB842111F33130E00A47BB3 /* Sources */,
+				6FB842121F33130E00A47BB3 /* Frameworks */,
+				6FB842131F33130E00A47BB3 /* Resources */,
+				45DD696C1D90A37FD0AC840C /* [CP] Embed Pods Frameworks */,
+				0C65EED9A006A1B921454499 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB842171F33130E00A47BB3 /* PBXTargetDependency */,
+			);
+			name = KSObjCMapperUITests;
+			productName = KSObjCMapperUITests;
+			productReference = 6FB842151F33130E00A47BB3 /* KSObjCMapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FB841E91F33130E00A47BB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Konstant;
+				TargetAttributes = {
+					6FB841F01F33130E00A47BB3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					6FB842091F33130E00A47BB3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FB841F01F33130E00A47BB3;
+					};
+					6FB842141F33130E00A47BB3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FB841F01F33130E00A47BB3;
+					};
+				};
+			};
+			buildConfigurationList = 6FB841EC1F33130E00A47BB3 /* Build configuration list for PBXProject "KSObjCMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FB841E81F33130E00A47BB3;
+			productRefGroup = 6FB841F21F33130E00A47BB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FB841F01F33130E00A47BB3 /* KSObjCMapper */,
+				6FB842091F33130E00A47BB3 /* KSObjCMapperTests */,
+				6FB842141F33130E00A47BB3 /* KSObjCMapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB841EF1F33130E00A47BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB842471F33138A00A47BB3 /* MyJson.json in Resources */,
+				6FB842041F33130E00A47BB3 /* LaunchScreen.storyboard in Resources */,
+				6FB842011F33130E00A47BB3 /* Assets.xcassets in Resources */,
+				6FB8424A1F3314B500A47BB3 /* Doc.rtf in Resources */,
+				6FB841FF1F33130E00A47BB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB842081F33130E00A47BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB842131F33130E00A47BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C65EED9A006A1B921454499 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSObjCMapperUITests/Pods-KSObjCMapperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11642357764EB2D43A35F3A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSObjCMapperTests/Pods-KSObjCMapperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C13D552DA346038B1DB6F8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSObjCMapperTests/Pods-KSObjCMapperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45DD696C1D90A37FD0AC840C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSObjCMapperUITests/Pods-KSObjCMapperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62033DDB462095FCE6A9C211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSObjCMapper/Pods-KSObjCMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5C3C6BB9F941BD995BAF6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78BDD23A8854CA3A5695BF07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSObjCMapper/Pods-KSObjCMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69C4F3FCD7215AE0E322DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2EB35A45B61DC054F0B5F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FB841ED1F33130E00A47BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB842361F33134B00A47BB3 /* Mapper.m in Sources */,
+				6FB842341F33134B00A47BB3 /* Mapper+DataTypeObserver.m in Sources */,
+				6FB841FC1F33130E00A47BB3 /* ViewController.m in Sources */,
+				6FB842431F33135400A47BB3 /* TestDict.m in Sources */,
+				6F91046D1F33490C006530F5 /* InterestService.m in Sources */,
+				6FB842411F33135400A47BB3 /* Friend.m in Sources */,
+				6FB842351F33134B00A47BB3 /* Mapper+Helper.m in Sources */,
+				6FB842401F33135400A47BB3 /* Enimy.m in Sources */,
+				6FB842331F33134B00A47BB3 /* Mapper+BadValueHandler.m in Sources */,
+				6FB841F91F33130E00A47BB3 /* AppDelegate.m in Sources */,
+				6F91046C1F33490C006530F5 /* HTTPService.m in Sources */,
+				6FB841F61F33130E00A47BB3 /* main.m in Sources */,
+				6FB842421F33135400A47BB3 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB842061F33130E00A47BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB8420F1F33130E00A47BB3 /* KSObjCMapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB842111F33130E00A47BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB8421A1F33130E00A47BB3 /* KSObjCMapperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FB8420C1F33130E00A47BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB841F01F33130E00A47BB3 /* KSObjCMapper */;
+			targetProxy = 6FB8420B1F33130E00A47BB3 /* PBXContainerItemProxy */;
+		};
+		6FB842171F33130E00A47BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB841F01F33130E00A47BB3 /* KSObjCMapper */;
+			targetProxy = 6FB842161F33130E00A47BB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FB841FD1F33130E00A47BB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB841FE1F33130E00A47BB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FB842021F33130E00A47BB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB842031F33130E00A47BB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FB8421C1F33130E00A47BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FB8421D1F33130E00A47BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB8421F1F33130E00A47BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838350F1D6036C704D7BDA56 /* Pods-KSObjCMapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSObjCMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konstant.KSObjCMapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FB842201F33130E00A47BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC97D1A9D459E53735F873F /* Pods-KSObjCMapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSObjCMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konstant.KSObjCMapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FB842221F33130E00A47BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BBA7C91BE38B169184AB79 /* Pods-KSObjCMapperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSObjCMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konstant.KSObjCMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSObjCMapper.app/KSObjCMapper";
+			};
+			name = Debug;
+		};
+		6FB842231F33130E00A47BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208C6EF225C6C614879D1D4C /* Pods-KSObjCMapperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSObjCMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konstant.KSObjCMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSObjCMapper.app/KSObjCMapper";
+			};
+			name = Release;
+		};
+		6FB842251F33130E00A47BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C19E48CEC7641C2542AC9A /* Pods-KSObjCMapperUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KSObjCMapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konstant.KSObjCMapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSObjCMapper;
+			};
+			name = Debug;
+		};
+		6FB842261F33130E00A47BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EC1A26A512E40AB35CD815 /* Pods-KSObjCMapperUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KSObjCMapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konstant.KSObjCMapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSObjCMapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FB841EC1F33130E00A47BB3 /* Build configuration list for PBXProject "KSObjCMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB8421C1F33130E00A47BB3 /* Debug */,
+				6FB8421D1F33130E00A47BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB8421E1F33130E00A47BB3 /* Build configuration list for PBXNativeTarget "KSObjCMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB8421F1F33130E00A47BB3 /* Debug */,
+				6FB842201F33130E00A47BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB842211F33130E00A47BB3 /* Build configuration list for PBXNativeTarget "KSObjCMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB842221F33130E00A47BB3 /* Debug */,
+				6FB842231F33130E00A47BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB842241F33130E00A47BB3 /* Build configuration list for PBXNativeTarget "KSObjCMapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB842251F33130E00A47BB3 /* Debug */,
+				6FB842261F33130E00A47BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FB841E91F33130E00A47BB3 /* Project object */;
+}

@@ -1,0 +1,97 @@
+[{
+ "body": "John",
+ "innerInfo": {
+ "name": "test",
+ "dict": {
+ "name": "Paul"
+ },
+ "enimy": [{
+           "name": null
+           },
+           {
+           "name": null
+           },
+           {
+           "name": null
+           }
+           ]
+ 
+ },
+ "friends": [{
+             "name": null
+             },
+             {
+             "name": "b"
+             },
+             {
+             "name": "b"
+             }
+             ],
+ "score": "302"
+ },
+ {
+ "body": "Anna",
+ "innerInfo": {
+ "dict": {
+ "name": "Steav"
+ },
+ "name": "testing",
+ 
+ "enimy": [{
+           "name": "a"
+           },
+           {
+           "name": "a"
+           },
+           {
+           "name": "a"
+           }
+           ]
+ },
+ "friends": [{
+             "name": "b"
+             },
+             {
+             "name": "b"
+             },
+             {
+             "name": "b"
+             }
+             ],
+ "score": "288"
+ },
+ {
+ "body": "Peter",
+ "innerInfo": {
+ "dict": {
+ "name": "Mac"
+ },
+ "name": "A.s.Rathore",
+ 
+ "enimy": [{
+           "name": "a"
+           },
+           {
+           "name": "a"
+           },
+           {
+           "name": "a"
+           }
+           ]
+ 
+ 
+ },
+ "friends": [{
+             "name": "b"
+             },
+             {
+             "name": "b"
+             },
+             {
+             "name": "b"
+             }
+             ],
+ "score": "243"
+ }
+ 
+ ]
